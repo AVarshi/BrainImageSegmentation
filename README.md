@@ -16,7 +16,6 @@ $$
 The Maximum a Posteriori (MAP) estimator assigns to each voxel that class which maximizes
 
 $$
-    
     \hat\theta = argmax(P(D|\theta) * P(\theta))
 $$
 

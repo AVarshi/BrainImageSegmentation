@@ -7,7 +7,7 @@ $$
 The Bayesian framework consists of three probability distributions: the prior distribution $P(\theta)$, the posterior distribution $P(\theta /D)$, and the conditional distribution  (also called the likelihood function) $P(D/\theta)$. The prior distribution embodies the knowledge of likely configurations before an actual image is observed. The posterior distribution is derived after an observation has been made and the likelihood is defined as the probability of obtaining a particular observation given a set of model parameters.
 Let’s assume that a set of probability distribution parameters, $\theta$, best explains the dataset $D$. We may wish to estimate the parameters $\theta$ with the help of the Bayes’ Rule.  The Bayes rule describes the relation between the posterior probability, prior probability , and likelihood  as follows:
 
-![Method](Images/method.png)
+
 
 $$
     P(\theta|D) = \frac{P(D|\theta)* P(\Theta)}{P(D)}

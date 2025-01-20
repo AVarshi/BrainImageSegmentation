@@ -10,9 +10,13 @@ Let’s assume that a set of probability distribution parameters, θ, best expla
 ![Method](Images/method.png)
 
 The Maximum a Posteriori (MAP) estimator assigns to each voxel that class which maximizes
-    ϴ=argmax P(D/ϴ)P(ϴ)
+    
+    ϴ = argmax P(D/ϴ)P(ϴ)
 
 where ϴ ∈{WM,GM,CSF.} D- Data Intensity in the voxel. Classification of new data is obtained by assigning each pixel to the class with the highest posterior probability.
 
 ## Likelihood function
+
 In the case of the brain MRI segmentation, often it is assumed that the pixel intensities are independent samples from a mixture of Gaussian probability distributions. 
+
+![Likelihood](Images/likelihood.png)

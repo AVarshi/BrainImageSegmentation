@@ -18,7 +18,6 @@ The Maximum a Posteriori (MAP) estimator assigns to each voxel that class which 
 $$
     
     \hat\theta = argmax(P(D|\theta) * P(\theta))
-
 $$
 
 where $\theta \in \lbrace WM,GM,CSF\rbrace $,  $D$- Data Intensity in the voxel. Classification of new data is obtained by assigning each pixel to the class with the highest posterior probability.
